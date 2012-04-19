@@ -62,7 +62,7 @@ vows.describe('OpenAm module tests').addBatch({
                 assert.equal(result,true)
             });
             topic.getAttributes(token, function(err,result){
-                //assert.equal(result,true);
+                assert.equal(result,true);
             });
           });
        },
