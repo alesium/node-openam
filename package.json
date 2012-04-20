@@ -2,7 +2,7 @@
   "author": "Sebastien Perreault <sperreault@alesium.net> (http://devio.us/~sebasp/)",
   "name": "openam",
   "description": "OpenAm Authentication module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/alesium/node-openam",
   "repository": {
     "type": "git",
