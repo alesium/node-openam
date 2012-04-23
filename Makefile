@@ -28,4 +28,13 @@ test:
 publish:
 	@@npm publish
 
+docs: docs/api.html
+
+docs/api.html: lib/*.js
+	        dox \
+						--title OpenAM \
+					  --desc "OpenAM API for node.js" \
+					  $(shell find lib/* -type f) > $@
+
+
 .PHONY: test publish
