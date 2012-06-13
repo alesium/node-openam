@@ -3,7 +3,7 @@ var OpenAm = require('../lib/openam.js').OpenAm
     ,assert = require('assert');
 
 
-var baseSite = 'http://sebasp.alesium.net/openam/';
+var baseSite = 'http://example.net/openam/';
 var username = 'demo';
 var goodPassword = 'demodemo';
 var openAm = new OpenAm(baseSite);

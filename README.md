@@ -9,8 +9,10 @@ Change History
 ============== 
 
 * 0.0.3 - Supports enough API's for passport-openam (https://github.com/alesium/passport-openam) to work. 
+* 0.0.4 - Fixed issue #1 - contribution by jamessharp
 
 Contributors
 ============
 
-* Sebastien Perreault - http://github.com/sperreault
+* Sebastien Perreault - https://github.com/sperreault
+* jamessharp          - https://github.com/jamessharp
