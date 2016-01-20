@@ -23,7 +23,7 @@ vows.describe('OpenAm module tests').addBatch({
         'authenticated':function(err, token) {
             assert.isNull(err);
             assert.isString(token);
-        },
+        }
     },
      'Token validation': {
        topic: function() { return openAm },
@@ -35,7 +35,7 @@ vows.describe('OpenAm module tests').addBatch({
               assert.equal(result,true); 
            });
          });
-       },
+       }
      },
      'Logout test': {
        topic: function() { return openAm },
@@ -50,7 +50,7 @@ vows.describe('OpenAm module tests').addBatch({
                 assert.equal(result,true);
             });
           });
-       },
+       }
      },
      'Attributes test': {
        topic: function() { return openAm },
@@ -65,6 +65,6 @@ vows.describe('OpenAm module tests').addBatch({
                 assert.equal(result,true);
             });
           });
-       },
-     },
+       }
+     }
 }}).export(module); //Export the suite
